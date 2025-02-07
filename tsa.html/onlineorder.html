@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body{
+            color:white;
+            background: linear-gradient(
+                rgba(0,0,0,0.75),rgba(0,0,0,0.65),rgba(0,0,0,0.35),rgba(0,0,0,0))
+            ,url(gourmet.avif)no-repeat;
+            background-size: cover;
+        }
+
+       .box{ width: 900px;
+        float:right;
+        border:10px solid none} 
+
+        .box ul li{
+            width: 120px;
+            float:left; 
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        .box ul li a{ text-decoration: none;
+        color:darkgray;}
+
+        .box ul li:hover{ background-color:green}
+        .box ul li a:hover{ color:white}
+
+        .wd{
+            width: 300px;
+            height: 539px;
+            background-color: black;
+            opacity: 0.9;
+            padding: 55px;
+        }
+
+        .wd h1{
+            text-align: center;
+            text-transform: none;
+            font-weight: 100px;
+        }
+
+        .wd h4{
+            text-align: center;
+            color:darkgray;
+            font-weight: normal;
+        }
+
+        .wd h2{
+            text-align:center;
+            text-transform: none;
+            font-weight: normal;
+            margin: 40 px auto;
+            padding-bottom:20px;
+            padding-top:20px;
+        }
+
+        .opt form , input[type="button"]{
+            background-color: black;
+            color:white;
+            padding: 10px;
+            margin:-13px auto;
+            padding-left: 50px;
+            padding-right:50px;
+            text-align:center;
+        }
+
+        form, input[type="button"]:hover{background-color: green;}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <ul type="none">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="onlineorder.html">Online Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="reference.html">Reference Page</a></li>
+        </ul>
+    </div>
+
+    <div class="wd">
+<h1>Online Order</h1>
+<h4>Right below you will find the button that can be used to order food directly from our website. This can be picked up at our nearest location or deliverd directly to your home.</h4>
+
+<h2>Pickup Order</h2>
+<div class="opt">
+    <form action="" method="post">
+    <input type="button" value="Begin Your Order">
+
+<h2>Delivery Order</h2>
+<div class="opt">
+    <form action="" method="post">
+    <input type="button" value="Begin Your Order">
+</div>
+</body>
+</html>
